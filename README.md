@@ -1,9 +1,6 @@
 # NestYogi Optimizer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python Versions](https://python.org/)
-[![Build Status](https://github.com/yourusername/NestYogi-optimizer/workflows/CI/badge.svg)](https://github.com/yourusername/NestYogi-optimizer/actions)
-
 
 **NestYogi** is a novel hybrid optimization algorithm designed to enhance the generalization and convergence rates of deep learning models, particularly in facial biometric applications. Proposed in the paper ["Novel Hybrid Optimization Techniques for Enhanced Generalization and Faster Convergence in Deep Learning Models: The NestYogi Approach to Facial Biometrics"](https://www.mdpi.com/2227-7390/12/18/2919), NestYogi integrates the adaptive learning capabilities of the Yogi optimizer, anticipatory updates of Nesterov momentum, and the generalization power of Stochastic Weight Averaging (SWA).
 
