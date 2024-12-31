@@ -1,8 +1,11 @@
 # NestYogi Optimizer
 
+![Python 3.12](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python Versions](https://img.shields.io/pypi/pyversions/nestyogi.svg)](https://python.org/)
-[![Build Status](https://github.com/raoofaltaher/NestYogi-optimizer/workflows/CI/badge.svg)](https://github.com/raoofaltaher/NestYogi-optimizer/actions)
+[![Build Status](https://github.com/yourusername/NestYogi-optimizer/workflows/CI/badge.svg)](https://github.com/yourusername/NestYogi-optimizer/actions)
+
 
 **NestYogi** is a novel hybrid optimization algorithm designed to enhance the generalization and convergence rates of deep learning models, particularly in facial biometric applications. Proposed in the paper ["Novel Hybrid Optimization Techniques for Enhanced Generalization and Faster Convergence in Deep Learning Models: The NestYogi Approach to Facial Biometrics"](https://www.mdpi.com/2227-7390/12/18/2919), NestYogi integrates the adaptive learning capabilities of the Yogi optimizer, anticipatory updates of Nesterov momentum, and the generalization power of Stochastic Weight Averaging (SWA).
 
@@ -170,7 +173,3 @@ These variables are initialized and used internally within the `step` method:
 | `state['v']` | Second moment vector. |
 | `state['max_v']` | Maximum second moment vector (used if `amsgrad` is `True`). |
 | `state['slow_param']` | Copy of the parameter for Lookahead (used if `lookahead` is `True`). |
-
-## Usage
-NestYogi can be seamlessly integrated into both PyTorch and TensorFlow workflows. Below are minimal examples demonstrating how to utilize the optimizer in each framework.
-
