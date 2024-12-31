@@ -1,9 +1,7 @@
 # NestYogi Optimizer
 
-![Python 3.12](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python Versions](https://img.shields.io/pypi/pyversions/nestyogi.svg)](https://python.org/)
+[![Python Versions](https://python.org/)
 [![Build Status](https://github.com/yourusername/NestYogi-optimizer/workflows/CI/badge.svg)](https://github.com/yourusername/NestYogi-optimizer/actions)
 
 
